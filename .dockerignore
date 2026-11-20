@@ -1,0 +1,9 @@
+.git
+.env
+.env.*
+.demo-credentials
+**/node_modules
+**/target
+**/dist
+**/__pycache__
+docs

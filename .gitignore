@@ -1,0 +1,10 @@
+.env
+node_modules/
+dist/
+target/
+.DS_Store
+*.log
+
+__pycache__/
+*.pyc
+.demo-credentials

@@ -1,0 +1,25 @@
+# Deploy the evaluator demo first. Pilot configuration is in deploy/render-pilot.yaml.
+services:
+  - type: web
+    name: unfold-demo
+    runtime: docker
+    plan: free
+    region: singapore
+    healthCheckPath: /api/health
+    envVars:
+      - key: APP_MODE
+        value: demo
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: APP_ORIGIN
+        sync: false
+      - key: DB_URL
+        sync: false
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: SUPPORT_EMAIL
+        sync: false
