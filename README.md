@@ -94,3 +94,4 @@ No hosting accounts or GitHub repository have been created. The React static bui
 - Screenshots: [welcome](docs/welcome-desktop.png), [discovery](docs/discovery-desktop.png), [mobile discovery](docs/discovery-mobile.png).
 
 Browser checks did not cover every onboarding input, screen reader, or browser engine. Automated API checks are reproducible via `scripts/smoke.py`.
+# dating_app
